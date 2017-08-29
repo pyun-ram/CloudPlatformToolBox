@@ -1,0 +1,1 @@
+g++  -fPIC -std=c++11 -march=native -O3 -O3 -DNDEBUG  -shared -Wl,-soname,librobotJson.so -o ../../lib/librobotJson.so CMakeFiles/robotJson.dir/robotJson.cpp.o 

@@ -1,0 +1,1 @@
+g++  -fPIC -std=c++11 -march=native -O3 -O3 -DNDEBUG  -shared -Wl,-soname,librobotCodeInfo.so -o ../../lib/librobotCodeInfo.so CMakeFiles/robotCodeInfo.dir/robotCodeInfo.cpp.o ../../lib/librobotWS.so ../../lib/librobotJson.so -lboost_system -lcrypto -lssl -lcpprest -Wl,-rpath,/home/yun/Code/cpp/CloudPlatformToolBox/client/lib 

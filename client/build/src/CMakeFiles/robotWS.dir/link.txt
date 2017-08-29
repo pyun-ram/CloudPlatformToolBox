@@ -1,0 +1,1 @@
+g++  -fPIC -std=c++11 -march=native -O3 -O3 -DNDEBUG  -shared -Wl,-soname,librobotWS.so -o ../../lib/librobotWS.so CMakeFiles/robotWS.dir/robotWS.cpp.o -lboost_system -lcrypto -lssl -lcpprest 

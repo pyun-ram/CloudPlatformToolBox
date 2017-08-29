@@ -1,0 +1,1 @@
+g++   -std=c++11 -march=native -O3 -O3 -DNDEBUG   CMakeFiles/test_echo_server.dir/test_echo_server.cpp.o  -o ../../bin/test_echo_server -rdynamic ../../lib/librobotJson.so ../../lib/librobotWS.so -lboost_system -lcrypto -lssl -lcpprest -Wl,-rpath,/home/yun/Code/cpp/CloudPlatformToolBox/client/lib 

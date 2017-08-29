@@ -1,0 +1,1 @@
+g++   -std=c++11 -march=native -O3 -O3 -DNDEBUG   CMakeFiles/test_robotCodeInfo.dir/test_robotCodeInfo.cpp.o  -o ../../bin/test_robotCodeInfo -rdynamic ../../lib/librobotCodeInfo.so ../../lib/librobotWS.so -lboost_system -lcrypto -lssl -lcpprest ../../lib/librobotJson.so -Wl,-rpath,/home/yun/Code/cpp/CloudPlatformToolBox/client/lib 
